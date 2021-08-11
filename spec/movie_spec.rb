@@ -8,7 +8,7 @@ describe Movie do
       it 'takes in three arguments: a name, genre and year' do
         expect { Movie.new('Troll 2', 'Comedy', '1990') }.not_to raise_error
       end
-    endf
+    end
 
     describe '#name' do
       it 'returns the name' do
